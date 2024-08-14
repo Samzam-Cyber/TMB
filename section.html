@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Tour du Mont Blanc</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Tour du Mont Blanc</h1>
+        <nav>
+            <ul>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#journees">Les Journées</a></li>
+                <li><a href="#liens-utiles">Liens Utiles</a></li>
+                <li><a href="#materiel">Matériel</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="presentation">
+            <h2>Présentation</h2>
+            <article>
+                <h3>Samsam</h3>
+                <p>Description de Samsam, ton compagnon de voyage ou toute autre information pertinente.</p>
+            </article>
+            <article>
+                <h3>Patate</h3>
+                <p>Description de Patate, peut-être une anecdote amusante ou une explication du surnom.</p>
+            </article>
+        </section>
+
+        <section id="journees">
+            <h2>Les Journées</h2>
+            <div class="jour">
+                <h3>Jour 1</h3>
+                <p>Description de la première journée, les paysages rencontrés, les défis, etc.</p>
+            </div>
+            <div class="jour">
+                <h3>Jour 2</h3>
+                <p>Description de la deuxième journée.</p>
+            </div>
+            <!-- Répète pour J3 à J10 -->
+            <div class="jour">
+                <h3>Jour 10</h3>
+                <p>Description de la dixième journée.</p>
+            </div>
+        </section>
+
+        <section id="liens-utiles">
+            <h2>Liens Utiles</h2>
+            <ul>
+                <li><a href="https://www.exemple.com">Exemple de lien utile 1</a></li>
+                <li><a href="https://www.exemple.com">Exemple de lien utile 2</a></li>
+            </ul>
+        </section>
+
+        <section id="materiel">
+            <h2>Matériel</h2>
+            <p>Liste du matériel utilisé pendant le tour du Mont Blanc : chaussures, sac à dos, vêtements, etc.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Galerie</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Vue du Mont Blanc">
+                <img src="image2.jpg" alt="Randonnée">
+                <img src="image3.jpg" alt="Coucher de soleil">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Tour du Mont Blanc. Tous droits réservés.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

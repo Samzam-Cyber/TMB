@@ -1,0 +1,151 @@
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #004d40;
+    line-height: 1.6;
+}
+
+/* Style du header */
+header {
+    background: #00796b;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style des sections */
+section {
+    padding: 2rem;
+}
+
+#presentation {
+    background: #b2dfdb;
+}
+
+#journees {
+    background: #80cbc4;
+}
+
+.jour {
+    margin-bottom: 1.5rem;
+}
+
+#liens-utiles,
+#materiel {
+    background: #4db6ac;
+}
+
+#gallery {
+    background: #26a69a;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Style du formulaire de contact */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    padding: 0.5rem;
+    border: 1px solid #004d40;
+    border-radius: 4px;
+    background-color: #e0f2f1;
+}
+
+form button {
+    padding: 0.75rem;
+    background: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #004d40;
+}
+
+/* Style du footer */
+footer {
+    background: #00796b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Style de la page d'accueil */
+.home {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.home-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.home-link {
+    background-color: #004d40;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #00796b;
+}
